@@ -9,7 +9,7 @@ import {
 
 import isDefined from '../utils/isDefined';
 
-class Note extends React.PureComponent {
+class Note extends React.Component {
   constructor(props) {
     super(props);
     this.playingBuffers = [];
